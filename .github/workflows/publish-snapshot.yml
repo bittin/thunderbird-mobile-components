@@ -13,7 +13,7 @@ concurrency:
 jobs:
   publish-snapshot:
     name: Publish snapshot
-    runs-on: ubuntu-latest
+    runs-on: macos-15
     timeout-minutes: 60
 
     env:
